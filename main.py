@@ -2,7 +2,7 @@ import requests
 
 url = 'http://localhost:8080'
 
-data = {"name": "dub", "age": "19"}
+data = {"name": "dub", "height": "195cm (real)"}
 
 response = requests.get(url, data=data)
 
